@@ -94,3 +94,4 @@ footer {
     padding: 1rem;
   }
 }
+@media (max-width: 600px) { body { background-color: lightblue; } }
