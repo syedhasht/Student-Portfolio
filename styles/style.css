@@ -94,6 +94,16 @@ footer {
     padding: 1rem;
   }
 }
+# Media query for smaller screens
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    nav li {
+        margin: 5px 0;
+    }
+}
 @media (max-width: 600px) { body { background-color: lightblue; } }
 /* Events Page Styling */
 .event {
