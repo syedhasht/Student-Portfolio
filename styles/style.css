@@ -115,3 +115,7 @@ footer {
         padding: 10px;
     }
 }
+@media (max-width: 600px) {
+    body { background-color: #f0f0f0; }
+    nav { display: flex; flex-direction: column; }
+}
