@@ -93,7 +93,29 @@ footer {
   main {
     padding: 1rem;
   }
-}@media (max-width: 600px) {
+}
+/* Events Page Styling */
+.event {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .event {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+@media (max-width: 600px) {
     body { background-color: #f0f0f0; }
     nav { display: flex; flex-direction: column; }
 }
